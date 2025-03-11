@@ -34,7 +34,7 @@
                     });
                     
                     $(fsEl).remove();
-                    $(surveyEl).remove();
+
                 }
                 else {
                     game = new Phaser.Game(960,640, Phaser.CANVAS, 'gameContainer', null, true);
@@ -48,9 +48,7 @@
                         window.gofull();
                     });
                     
-                    $(surveyButton).click(function() {
-                        window.open("https://goo.gl/forms/GOBH2wq8Fc9STE482");
-                    });
+                    
                 }
             }
             
@@ -130,7 +128,7 @@
         <!--<div id="btnHolder" style="text-align:center;"><button onclick="goFullscreen()">Go Fullscreen</button></div>-->
         <!--<div id="betaThanks">Thank you for beta testing Crack the Circuit! With your feedback, we hope to make it better and more useful tool for teachers and students. Please take a few minutes to complete this short survey. It would really help us out!</div>-->
         <div class="col-6" id="fsEl"><img id="fullscreenButton" class="bottomBtn" src="assets/images/goFullscreen.png" alt="Expand your mind"></div>
-        <div class="col-6" id="surveyEl"><img id="surveyButton" class="bottomBtn" src="assets/images/takeSurvey.png" alt="Help us improve"></div>
+
         <!--</a>-->
         
         
